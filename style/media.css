@@ -1,0 +1,1114 @@
+@media (min-width: 1200px){
+    .span{
+        display: none;
+    }
+    .span__close{
+        display: none;
+    }
+
+    .tasks{
+        height: 388px;
+    }
+    .project__list{
+        max-height: 540px;
+        max-width: 120px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 200px;
+        height: 520px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .main{
+        margin-bottom: 30px;
+    }
+
+    .task__main{
+        width: auto;
+        height: 485px;
+    }
+
+    .task__add{
+        height: 413px;
+    }
+
+    .task__list{
+        height: 360px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 60%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .title{
+        margin-right: 100px;
+    }
+
+    .main__btn__plus{
+        left: 10.5%;
+    }
+
+    .span__close {
+        right: 5px;
+    }
+
+    .task__block__calendar__data{
+        margin-bottom: 9%;
+    }
+
+    .date_c{
+        margin-bottom: 9%;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+
+    .text__calendar{
+        margin-right: 5px;
+    }
+
+    .form__add__btn__style{
+        margin-top: 20px;
+    }
+
+    .logo__size{
+        width: 12%;
+    }
+}
+
+@media (min-width: 855px) and (max-width: 991px){
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 200px;
+        height: 465px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .span__close{
+        right: 5px;
+    }
+
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .main{
+        margin-bottom: 30px;
+    }
+
+    .task__main{
+        width: auto;
+        height: 430px;
+    }
+
+    .task__add{
+        height: 47.5px;
+    }
+
+    .task__list{
+        height: 255px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 60%;
+    }
+
+    .main__btn__plus{
+        left: 9.5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .logo__size{
+        width: 15%;
+    }
+
+    .title{
+        margin-right: 100px;
+    }
+
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+
+    .add{
+        width: 60%;
+    }
+
+    .text__calendar{
+        margin-right: 10px;
+    }
+
+    .form__add__btn{
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .tasks {
+        height: 260px;
+        max-height: 260px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    .delete__stuff{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .task__block__calendar__data {
+        font-size: 14.5px;
+    }
+    
+    .task__block__calendar__data {
+        margin-bottom: 4%;
+    }
+
+    .menu__p{
+        font-size: 15px;
+    }
+    
+    .main__btn__plus{
+        margin-top: 5px;
+    }
+
+    .span__close{
+        font-size: 25px;
+    }
+
+    .menu__p {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .task__block__calendar__block {
+        margin: 0px 25px;
+        text-align: center;
+    }
+
+    .project__list {
+        font-size: 1.2rem;
+        list-style-type: disc;
+        line-height: 30px;
+        padding-left: 40px;
+        max-height: 290px;
+        overflow: auto;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+        font-size: 13px;
+    }
+
+    .int-new-list-style {
+        width: 160px;
+    }
+}
+
+@media (min-width: 841px) and (max-width: 854px){
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 200px;
+        height: 725px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .span__close{
+        right: 5px;
+    }
+
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .main{
+        margin-bottom: 30px;
+    }
+
+    .task__main{
+        width: auto;
+        height: 690px;
+    }
+
+    .task__add{
+        height: 47.5px;
+    }
+
+    .task__list{
+        height: 255px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 60%;
+    }
+
+    .main__btn__plus{
+        left: 9.5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .logo__size{
+        width: 15%;
+    }
+
+    .title{
+        margin-right: 100px;
+    }
+
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+
+    .add{
+        width: 60%;
+    }
+
+    .text__calendar{
+        margin-right: 10px;
+    }
+
+    .form__add__btn{
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .tasks {
+        height: 520px;
+        max-height: 520px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    .delete__stuff{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .task__block__calendar__data {
+        font-size: 14.5px;
+    }
+    
+    .task__block__calendar__data {
+        margin-bottom: 4%;
+    }
+
+    .menu__p{
+        font-size: 15px;
+    }
+    
+    .main__btn__plus{
+        margin-top: 5px;
+    }
+
+    .span__close{
+        font-size: 25px;
+    }
+
+    .menu__p {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .task__block__calendar__block {
+        margin: 0px 25px;
+        text-align: center;
+    }
+
+    .project__list {
+        font-size: 1.2rem;
+        list-style-type: disc;
+        line-height: 30px;
+        padding-left: 40px;
+        max-height: 550px;
+        overflow: auto;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+    }
+
+    .int-new-list-style {
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 840px){
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 200px;
+        height: 430px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .span__close{
+        right: 5px;
+    }
+
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .main{
+        margin-bottom: 30px;
+    }
+
+    .task__main{
+        width: auto;
+        height: 365px;
+    }
+
+    .task__add{
+        height: 47.5px;
+    }
+
+    .task__list{
+        height: 255px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 60%;
+    }
+
+    .main__btn__plus{
+        left: 9.5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .logo__size{
+        width: 15%;
+    }
+
+    .title{
+        margin-right: 100px;
+    }
+
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+
+    .add{
+        width: 60%;
+    }
+
+    .text__calendar{
+        margin-right: 10px;
+    }
+
+    .form__add__btn{
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    .tasks {
+        height: 250px;
+        max-height: 250px;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    .delete__stuff{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .task__block__calendar__data {
+        font-size: 14.5px;
+    }
+    
+    .task__block__calendar__data {
+        margin-bottom: 4%;
+    }
+
+    .menu__p{
+        font-size: 15px;
+    }
+    
+    .main__btn__plus{
+        margin-top: 5px;
+    }
+
+    .span__close{
+        font-size: 25px;
+    }
+
+    .menu__p {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .task__block__calendar__block {
+        margin: 0px 25px;
+        text-align: center;
+    }
+
+    .project__list {
+        font-size: 1.2rem;
+        list-style-type: disc;
+        line-height: 30px;
+        padding-left: 40px;
+        max-height: 240px;
+        overflow: auto;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+        font-size: 13px;
+    }
+
+    .int-new-list-style {
+        width: 160px;
+    }
+
+    .task__welcome{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 671px){
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .span__close{
+        right: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 200px;
+        height: 360px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .task__main{
+        width: auto;
+        height: 325px;
+    }
+
+    .task__add{
+        height: 240px;
+    }
+    
+    .task__list{
+        height: 195px;
+    }
+
+    .logo__size{
+        width: 17.754px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 39%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .container__main__block{
+        margin: 105px auto;
+    }
+
+    .task__welcome__search{
+        display: none;
+    }
+
+    .main__btn__plus{
+        left: 9.5%;
+    }
+
+    .task__block__calendar__data{
+        margin-bottom: 2.5%;
+    }
+
+    .date_c{
+        margin-bottom: 2.5%;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0;
+    }
+
+    .add{
+        width: 50%;
+    }
+
+    .textarea__add{
+        margin-right: 5px;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+
+    .form__add__btn__style{
+        margin-top: 20px;
+    }
+
+    .tasks{
+        max-height: 140px;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .task__main {
+        height: 310px;
+    }
+
+    .project__list{
+        max-height: 140px;
+    }
+
+    .int-new-list-style {
+        width: 170px;
+    }
+
+    .task__block__calendar{
+        overflow: auto;
+        max-height: 190px;
+    }
+}
+
+@media (max-width: 670px) and (min-width: 601px){
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .span__close{
+        right: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 210px;
+        height: 790px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .task__main{
+        width: auto;
+        height: 720px;
+        max-height: 720px;
+    }
+    
+    .task__block__calendar__btn{
+        margin-bottom: 0px;
+    }
+
+    .main__btn__plus{
+        left: 13.5%
+    }
+    
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__data {
+        font-size: 17px;
+    }
+
+    .logo__size{
+        width: 17.754px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .close__add__btn{
+        font-size: 25px;
+    }
+
+    .add{
+        width: 90%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+    
+    .text__calendar{
+        margin-right: 5px;
+    }
+
+    .form__add__btn{
+        margin-top: 20px;
+    }
+
+    .task__add{
+        height: 248px;
+    }
+
+    .task__list{
+        height: 200px;
+    }
+
+    .tasks{
+        max-height: 560px;
+    }
+
+    .project__list{
+        max-height: 570px;
+    }
+
+    .int-new-list-style {
+        width: 180px;
+    }
+
+    .menu__p {
+        font-size: 18.5px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 551px){
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .span__close{
+        right: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 210px;
+        height: 360px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .task__main{
+        width: auto;
+        height: 310px;
+        max-height: 310px;
+    }
+    
+    .task__block__calendar{
+        overflow: auto;
+        max-height: 200px;
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0px;
+    }
+
+    .main__btn__plus{
+        left: 13.5%
+    }
+    
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__data {
+        font-size: 17px;
+    }
+
+    .logo__size{
+        width: 17.754px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .close__add__btn{
+        font-size: 25px;
+    }
+
+    .add{
+        width: 90%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+    
+    .text__calendar{
+        margin-right: 5px;
+    }
+
+    .form__add__btn{
+        margin-top: 20px;
+    }
+
+    .task__add{
+        height: 248px;
+    }
+
+    .task__list{
+        height: 200px;
+    }
+
+    .tasks{
+        max-height: 145px;
+    }
+
+    .project__list{
+        max-height: 146px;
+    }
+
+    .int-new-list-style {
+        width: 180px;
+    }
+
+    .menu__p {
+        font-size: 16.5px;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 550px) and (min-width: 401px){
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .span__close{
+        right: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 210px;
+        height: 695px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .task__main{
+        width: auto;
+        height: 660px;
+        max-height: 660px;  
+    }
+
+    .task__block__calendar__btn{
+        margin-bottom: 0px;
+    }
+
+    .main__btn__plus{
+        left: 13.5%
+    }
+    
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .task__block__calendar__data {
+        font-size: 17px;
+    }
+
+    .logo__size{
+        width: 17.754px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .close__add__btn{
+        font-size: 25px;
+    }
+
+    .add{
+        width: 90%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+    
+    .text__calendar{
+        margin-right: 5px;
+    }
+
+    .form__add__btn{
+        margin-top: 20px;
+    }
+
+    .task__add{
+        height: 248px;
+    }
+
+    .task__list{
+        height: 200px;
+    }
+
+    .tasks{
+        max-height: 495px;
+    }
+
+    .project__list{
+        max-height: 480px;
+    }
+
+    .int-new-list-style {
+        width: 180px;
+    }
+
+    .menu__p {
+        font-size: 16.5px;
+    }
+
+    .btn.delete {
+        padding-top: 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px){
+    .menu__block{
+        margin: 35px 15px;
+    }
+
+    .span__close{
+        right: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 210px;
+        height: 545px;
+        border: 1px solid black;
+    }
+
+    .btn__main{
+        display:none;
+    }
+
+    .task__main{
+        width: auto;
+        height: 510px;
+    }
+    
+    .task__block__calendar__btn{
+        margin-bottom: 0px;
+    }
+
+    .main__btn__plus{
+        left: 13.5%
+    }
+    
+    .task__block__calendar__data{
+        margin-bottom: 5%;
+    }
+
+    .date_c{
+        margin-bottom: 5%;
+    }
+
+    .logo__size{
+        width: 17.754px;
+    }
+
+    .menu__block__text{
+        margin-bottom: 5%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .close__add__btn{
+        font-size: 25px;
+    }
+
+    .add{
+        width: 90%;
+    }
+
+    .form__add__lvl{
+        display: block;
+    }
+    
+    .text__calendar{
+        margin-right: 5px;
+    }
+
+    .form__add__btn{
+        margin-top: 20px;
+    }
+
+    .task__welcome__search{
+        display: none;
+    }
+
+    .input{
+        width: 100%;
+    }
+
+    .tasks{
+        height: 350px;
+    }
+
+    .project__list{
+        max-height: 325px;
+    }
+
+    .int-new-list-style{
+        width: 190px;
+    }
+
+    .btn.delete {
+    padding-top: 0;
+    font-size: 13px;
+    }
+}

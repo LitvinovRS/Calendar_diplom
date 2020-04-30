@@ -1,0 +1,186 @@
+body{
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+}
+
+.login{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    opacity: 0.75;
+    background-color: darkgray;
+}
+
+.login__btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.login__input{
+    width: 70%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 60px;
+    outline: none;
+}
+
+.btn__authorization{
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    outline: none;
+}
+
+.change__password{
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.signup{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 700px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    opacity: 0.75;
+    background-color: darkgray;
+}
+
+.signup__input{
+    width: 70%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.btn__registration{
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    outline: none;
+}
+
+@media (min-width: 1200px){
+    .login{
+        background-color: darkgray;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .login{
+        background-color: darkgray;
+    }
+    
+    .signup{
+        background-color: darkgray;
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .login{
+        background-color: darkgray;
+        margin-top: 5%;
+    }
+
+    .signup{
+        background-color: darkgray;
+        margin-top: 3%;
+        height: 430px;
+    }
+
+    .signup__input {
+        height: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 671px){
+    .login{
+        width: 650px;
+        margin-top: 0;
+        height: 390px;
+    }
+
+    .signup{
+        width: 650px;
+        margin-top: 0;
+        height: 390px;
+    }
+
+    .signup__input{
+        height: 40px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 670px) and (min-width: 401px){
+    .login{
+        width: 430px;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .login__input{
+        width: 95%;
+        margin-top: 70px;
+    }
+
+    .signup{
+        width: 430px;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .signup__input {
+        height: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .login{
+        width: 370px;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .login__input{
+        width: 95%;
+        margin-top: 70px;
+    }
+    .btn__authorization {
+        font-size: 27px;
+    }
+
+    .signup{
+        width: 370px;
+        height: 560px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .signup__input{
+        height: 40px;
+    }
+}

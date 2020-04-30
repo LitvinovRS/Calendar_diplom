@@ -1,0 +1,200 @@
+body{
+    font-family: Comic, Helvetica, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+
+.logo__size{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 8%;
+    margin-left: 5%;
+}
+
+.title{
+    font-size: 20px;
+    margin-right: 11%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.main{
+    display: flex;
+}
+
+.time__block__main
+{
+    position: absolute;
+    z-index: 999999;
+    top: 37px;
+    right: 0;
+    background-color: #fefefe;
+}
+
+.time__block__registration{
+    width: 40%;
+    border: 1px solid green;
+    font-size: 10px;
+    border-radius: 8%;
+    height: 177px;
+    width: 305px;
+    display: none;
+}
+
+.time__block__registration__div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    width: 280px;
+}
+
+.time__block__registration__panel{
+    margin-left: 45%;
+}
+
+.time__block__registration__panel__btn{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.time__block__registration__input{
+    height: 15px;
+    padding-top: 1px;
+    margin-top: 5px;
+}
+
+.time__block__autorization{
+    width: 40%;
+    border: 1px solid green;
+    font-size: 10px;
+    border-radius: 8%;
+    height: 177px;
+    width: 305px;
+    display: none;
+}
+
+
+.time__block__autorization__div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    width: 280px;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+
+.time__block__autorization__panel{
+    margin-left: 10%;
+}
+
+.time__block__autorization__panel__btn{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.time__block__autorization__panel__a{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.time__block__autorization__input{
+    height: 15px;
+    padding-top: 1px;
+    margin-top: 5px;
+}
+
+.menu{
+    border-right: 1px solid black;
+}
+
+.menu__block{
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.menu__block__text
+{
+    cursor: pointer;
+    margin-bottom: 20%;
+    font-size: 15px;
+}
+
+.container{
+    width: 100%;
+}
+
+.container__main{
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    width: 1000px;
+    height: 457px;
+}
+
+.container__main__block{
+    margin:120px auto;
+}
+
+.container__block__hello__text{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main__btn__chat{
+    background-color: transparent;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 170px;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 50%;
+    height: 50px;
+    position: relative;
+    z-index: 20;
+    left: 2%;
+}
+
+.footer{
+    text-align: center;
+    font-size: 11px;
+    border-top: 1px solid black;
+}
+
+.span{
+    position: absolute;
+    display: inline-block;
+    width: 2.25em;
+    height: 0.8em;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+    top: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.span:before{
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0;
+    width: 100%;
+    border-top: 0.2em solid black;
+}
+
+.span__close{
+    font-size: 30px;
+    color: #ccc;
+    position: absolute;
+    cursor: pointer;
+    z-index: 19;
+}

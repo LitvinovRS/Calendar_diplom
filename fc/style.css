@@ -1,0 +1,58 @@
+#calendar{
+    max-width: 900px;
+    margin: auto;
+}
+
+#calendar .fc-today{
+    background: #ccc;
+}
+
+#calendar .fc-day{
+    transition: all .2s;
+}
+
+#calendar .fc-day:hover{
+    background: #ccc;
+}
+
+/* .form_dialog{
+    position: relative;
+    z-index: 1;
+    background: white;
+    border: 1px solid black;
+} */
+
+.form_dialog{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.form-modal{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.form__class{
+    width: 600px;
+    margin: auto;
+}
+
+.btn-close{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-add{
+    margin-bottom: 10px;
+}

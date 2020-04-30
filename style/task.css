@@ -1,0 +1,46 @@
+.lineThrough{
+    color:#6eb200;
+    text-decoration: line-through;
+    color : #ccc;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    font-size: 25px;
+}
+.item i.co{
+    margin: 1% 0;
+    font-size: 25px;
+    padding-left: 5px;
+    left: 15px;
+    top: 10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+
+.item p.text{
+    width: 100%;
+    margin: 1% 0;
+    padding: 0;
+    font-size: 20px;
+    left: 50px;
+    top: 5px;
+    background-color: #FFF;
+    max-width: 85%;
+}
+
+.item i.de{
+    margin: 1% 0;
+    font-size: 25px;
+    right: 15px;
+    top: 10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
